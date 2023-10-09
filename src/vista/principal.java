@@ -17,7 +17,7 @@ import javax.swing.text.DocumentFilter;
  * @author Bruno
  */
 public class principal extends javax.swing.JFrame {
-
+    
     public principal() {
         initComponents();
         this.setLocationRelativeTo(null);
@@ -81,7 +81,6 @@ public class principal extends javax.swing.JFrame {
                 }
             }
         });
-      
     }
     
     @SuppressWarnings("unchecked")
