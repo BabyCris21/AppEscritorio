@@ -12,10 +12,7 @@ import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DocumentFilter;
 
-/**
- *
- * @author Bruno
- */
+
 public class principal extends javax.swing.JFrame {
     
     public principal() {
@@ -179,6 +176,8 @@ public class principal extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 670));
 
+        jTabbedPane1.setEnabled(false);
+
         jPanel3.setBackground(new java.awt.Color(238, 238, 238));
 
         jLabel2.setText("Código");
@@ -295,7 +294,7 @@ public class principal extends javax.swing.JFrame {
                             .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton2)
                         .addGap(24, 24, 24))))
         );
@@ -401,8 +400,6 @@ public class principal extends javax.swing.JFrame {
                     .addComponent(jButton3))
                 .addContainerGap(405, Short.MAX_VALUE))
         );
-
-        jButton3.getAccessibleContext().setAccessibleName("Añadir");
 
         jTabbedPane1.addTab("Clientes", jPanel4);
 
