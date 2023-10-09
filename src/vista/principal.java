@@ -38,10 +38,7 @@ public class principal extends javax.swing.JFrame {
             jTabbedPane1.setSelectedIndex(2); // Cambia a la pestaña "Clientes" (index 2)
         }
     });
-    
- 
     }
-
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -309,7 +306,7 @@ public class principal extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(204, 204, 204));
+        jButton3.setBackground(new java.awt.Color(238, 238, 238));
         jButton3.setText("Añadir");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
