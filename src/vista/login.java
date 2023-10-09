@@ -121,7 +121,11 @@ public class login extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextUsuarioActionPerformed
 
     private void btnInicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInicioActionPerformed
-        // TODO add your handling code here:
+    principal principalFrame = new principal();
+    
+    this.setVisible(false);
+    
+    principalFrame.setVisible(true);
     }//GEN-LAST:event_btnInicioActionPerformed
 
     public static void main(String args[]) {
