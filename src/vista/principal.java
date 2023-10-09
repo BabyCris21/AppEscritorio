@@ -6,6 +6,11 @@ package vista;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.JOptionPane;
+import javax.swing.text.AbstractDocument;
+import javax.swing.text.AttributeSet;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.DocumentFilter;
 
 /**
  *
@@ -38,6 +43,45 @@ public class principal extends javax.swing.JFrame {
             jTabbedPane1.setSelectedIndex(2); // Cambia a la pestaña "Clientes" (index 2)
         }
     });
+    
+    // Limitar el jTextField2 (nombre) para aceptar solo caracteres
+        ((AbstractDocument) jTextField2.getDocument()).setDocumentFilter(new DocumentFilter() {
+            @Override
+            public void replace(FilterBypass fb, int offset, int length, String text, AttributeSet attrs)
+                    throws BadLocationException {
+                if (text.matches("[a-zA-Z]+")) {
+                    super.replace(fb, offset, length, text, attrs);
+                }
+            }
+        });
+        
+    // Limitar el jTextField4 (apellidos) para aceptar solo caracteres
+        ((AbstractDocument) jTextField4.getDocument()).setDocumentFilter(new DocumentFilter() {
+            @Override
+            public void replace(DocumentFilter.FilterBypass fb, int offset, int length, String text, AttributeSet attrs)
+                    throws BadLocationException {
+                if (text.matches("[a-zA-Z]+")) {
+                    super.replace(fb, offset, length, text, attrs);
+                }
+            }
+        });
+        
+        ((AbstractDocument) jTextField3.getDocument()).setDocumentFilter(new DocumentFilter() {
+            @Override
+            public void replace(FilterBypass fb, int offset, int length, String text, AttributeSet attrs)
+                    throws BadLocationException {
+                String currentText = fb.getDocument().getText(0, fb.getDocument().getLength());
+                currentText = currentText.substring(0, offset) + text + currentText.substring(offset + length);
+
+                if (currentText.matches("\\d{0,8}")) {
+                    super.replace(fb, offset, length, text, attrs);
+                } else {
+                    // Mostrar un cuadro de diálogo en caso de entrada incorrecta
+                    JOptionPane.showMessageDialog(null, "El número de DNI debe tener exactamente 8 dígitos.", "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+        });
+      
     }
     
     @SuppressWarnings("unchecked")
