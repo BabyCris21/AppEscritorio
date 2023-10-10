@@ -122,6 +122,7 @@ public class principal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(238, 238, 238));
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(5, 59, 80));
@@ -131,6 +132,8 @@ public class principal extends javax.swing.JFrame {
         btnVenta.setForeground(new java.awt.Color(241, 239, 239));
         btnVenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/compras.png"))); // NOI18N
         btnVenta.setText("Venta");
+        btnVenta.setBorder(null);
+        btnVenta.setBorderPainted(false);
         btnVenta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVentaActionPerformed(evt);
@@ -142,12 +145,16 @@ public class principal extends javax.swing.JFrame {
         Almacenamiento.setForeground(new java.awt.Color(241, 239, 239));
         Almacenamiento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/almacen.png"))); // NOI18N
         Almacenamiento.setText("Almacenamiento");
+        Almacenamiento.setBorder(null);
+        Almacenamiento.setBorderPainted(false);
 
         btnClientes.setBackground(new java.awt.Color(23, 107, 135));
         btnClientes.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         btnClientes.setForeground(new java.awt.Color(241, 239, 239));
         btnClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Clientes.png"))); // NOI18N
         btnClientes.setText("Clientes");
+        btnClientes.setBorder(null);
+        btnClientes.setBorderPainted(false);
         btnClientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnClientesActionPerformed(evt);
