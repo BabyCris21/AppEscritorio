@@ -252,7 +252,7 @@ public class login extends javax.swing.JFrame {
         });
     }
     
-    hjksa
+    
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnInicio;
