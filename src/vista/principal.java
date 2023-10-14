@@ -757,7 +757,7 @@ public class principal extends javax.swing.JFrame {
         jButton6.setBackground(new java.awt.Color(23, 107, 135));
         jButton6.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(241, 239, 239));
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/eliminar.png"))); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/libro.png"))); // NOI18N
         jButton6.setText("Catálogo");
         jButton6.setAlignmentX(3.0F);
         jButton6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -770,8 +770,8 @@ public class principal extends javax.swing.JFrame {
         jButton12.setBackground(new java.awt.Color(23, 107, 135));
         jButton12.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jButton12.setForeground(new java.awt.Color(241, 239, 239));
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/eliminar.png"))); // NOI18N
-        jButton12.setText("Crear servicio");
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/crear.png"))); // NOI18N
+        jButton12.setText("Crear");
         jButton12.setAlignmentX(3.0F);
         jButton12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -783,8 +783,8 @@ public class principal extends javax.swing.JFrame {
         jButton13.setBackground(new java.awt.Color(23, 107, 135));
         jButton13.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jButton13.setForeground(new java.awt.Color(241, 239, 239));
-        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/eliminar.png"))); // NOI18N
-        jButton13.setText("Editar Servicio");
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editart.png"))); // NOI18N
+        jButton13.setText("Editar");
         jButton13.setAlignmentX(3.0F);
         jButton13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -796,7 +796,7 @@ public class principal extends javax.swing.JFrame {
         jButton14.setBackground(new java.awt.Color(23, 107, 135));
         jButton14.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jButton14.setForeground(new java.awt.Color(241, 239, 239));
-        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/eliminar.png"))); // NOI18N
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/reporte.png"))); // NOI18N
         jButton14.setText("Reportes");
         jButton14.setAlignmentX(3.0F);
         jButton14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -809,7 +809,7 @@ public class principal extends javax.swing.JFrame {
         jButton15.setBackground(new java.awt.Color(23, 107, 135));
         jButton15.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jButton15.setForeground(new java.awt.Color(241, 239, 239));
-        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/eliminar.png"))); // NOI18N
+        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/reloj.png"))); // NOI18N
         jButton15.setText("Programar");
         jButton15.setAlignmentX(3.0F);
         jButton15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -822,7 +822,7 @@ public class principal extends javax.swing.JFrame {
         jButton16.setBackground(new java.awt.Color(23, 107, 135));
         jButton16.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jButton16.setForeground(new java.awt.Color(241, 239, 239));
-        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/eliminar.png"))); // NOI18N
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/precio.png"))); // NOI18N
         jButton16.setText("Tarifas");
         jButton16.setAlignmentX(3.0F);
         jButton16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));

@@ -1076,7 +1076,7 @@
                   <Color blue="ef" green="ef" red="f1" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/img/eliminar.png"/>
+                  <Image iconType="3" name="/img/libro.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Cat&#xe1;logo"/>
                 <Property name="alignmentX" type="float" value="3.0"/>
@@ -1102,9 +1102,9 @@
                   <Color blue="ef" green="ef" red="f1" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/img/eliminar.png"/>
+                  <Image iconType="3" name="/img/crear.png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Crear servicio"/>
+                <Property name="text" type="java.lang.String" value="Crear"/>
                 <Property name="alignmentX" type="float" value="3.0"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -1128,9 +1128,9 @@
                   <Color blue="ef" green="ef" red="f1" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/img/eliminar.png"/>
+                  <Image iconType="3" name="/img/editart.png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Editar Servicio"/>
+                <Property name="text" type="java.lang.String" value="Editar"/>
                 <Property name="alignmentX" type="float" value="3.0"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
@@ -1154,7 +1154,7 @@
                   <Color blue="ef" green="ef" red="f1" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/img/eliminar.png"/>
+                  <Image iconType="3" name="/img/reporte.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Reportes"/>
                 <Property name="alignmentX" type="float" value="3.0"/>
@@ -1180,7 +1180,7 @@
                   <Color blue="ef" green="ef" red="f1" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/img/eliminar.png"/>
+                  <Image iconType="3" name="/img/reloj.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Programar"/>
                 <Property name="alignmentX" type="float" value="3.0"/>
@@ -1206,7 +1206,7 @@
                   <Color blue="ef" green="ef" red="f1" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/img/eliminar.png"/>
+                  <Image iconType="3" name="/img/precio.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Tarifas"/>
                 <Property name="alignmentX" type="float" value="3.0"/>
