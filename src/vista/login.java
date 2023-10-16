@@ -207,8 +207,14 @@ public class login extends javax.swing.JFrame {
 
     private void btnInicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInicioActionPerformed
     
-    validar();
-   
+// Crea una instancia de la clase principal
+    principal principalFrame = new principal();
+    
+    // Oculta la ventana de inicio de sesión
+    this.setVisible(false);
+    
+    // Muestra la ventana principal
+    principalFrame.setVisible(true);   
     }//GEN-LAST:event_btnInicioActionPerformed
 
     private void txtUsuarioFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtUsuarioFocusGained
